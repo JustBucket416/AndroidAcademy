@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="title_end_margin">64dp</dimen>
+    <dimen name="title_start_margin">48dp</dimen>
+    <dimen name="toolbar_image_height_small">200dp</dimen>
+</resources>

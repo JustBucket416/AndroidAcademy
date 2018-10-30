@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/include_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/text_occupation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_occupation_left"
+        android:layout_marginEnd="@dimen/margin_default"
+        android:drawableStart="@drawable/ic_business_center_black_24dp"
+        android:text="@string/student"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/text_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_occupation"
+        android:layout_margin="@dimen/margin_default"
+        android:text="@string/roman_is_a_student" />
+
+    <EditText
+        android:id="@+id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_about"
+        android:layout_margin="@dimen/margin_default"
+        android:ems="10"
+        android:hint="@string/enter_a_message"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/button_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_message"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/margin_default"
+        android:text="@string/send_message" />
+
+</RelativeLayout>

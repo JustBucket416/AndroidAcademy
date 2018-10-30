@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercise2</string>
+    <string name="student">Студент</string>
+    <string name="roman_is_a_student">Роман - студент.</string>
+    <string name="enter_a_message">Введите сообщение</string>
+    <string name="send_message">Отправить сообщение</string>
+    <string name="no_app_found">Не найдено приложения для отправки email</string>
+</resources>

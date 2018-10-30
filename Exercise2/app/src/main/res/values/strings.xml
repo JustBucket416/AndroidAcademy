@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exercise2</string>
+    <string name="student">Student</string>
+    <string name="roman_is_a_student">Roman is a student.</string>
+    <string name="enter_a_message">Enter a message</string>
+    <string name="send_message">Send message</string>
+    <string name="no_app_found">No Email app found</string>
+</resources>

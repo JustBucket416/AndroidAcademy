@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercise1</string>
+    <string name="send_email">Отправить email</string>
+    <string name="preview">Предпросмотр</string>
+    <string name="no_app_found">Не найдено приложения для отправки email</string>
+</resources>
